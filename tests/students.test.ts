@@ -1,5 +1,5 @@
 import request from "supertest";
-import app from "./app";
+import app from "../src/app";
 
 describe("Testes da Rota de Alunos", () => {
   it("Deve ser possível criar um aluno", async () => {
